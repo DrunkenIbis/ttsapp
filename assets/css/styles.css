@@ -1,0 +1,55 @@
+/* https://github.com/feathericons/feather#feather */
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+/*https://www.w3schools.com/csS/css3_buttons.asp*/
+input[type="button"] {
+  background: url("../img/play.svg") no-repeat left center;
+  background-color: #4caf50; /* Green */
+  height: 50px;
+  width: 50px;
+  border: none;
+  color: black;
+  /*padding: 15px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+input[id="stopbtnEd"],
+[type="button"] {
+  background: url("../img/settings.svg") no-repeat left center;
+}
+/*https://www.sitepoint.com/css-system-styles/*/
+input[type="range"] {
+  /*-webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 50%; /* Specific width is required for Firefox. */
+  height: 25%;
+  /*background: transparent; /* Otherwise white in Chrome */
+}
+
+/*input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+/* }
+  
+  input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+  
+    /* Hides the slider so custom styles can be added 
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;*/
+/*}*/
